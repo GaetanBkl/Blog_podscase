@@ -3,6 +3,8 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import VueCookies from 'vue-cookies'
+Vue.use(VueCookies)
 
 Vue.config.productionTip = false
 
